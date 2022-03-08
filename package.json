@@ -1,0 +1,27 @@
+{
+  "name": "rolling-dice-bot",
+  "version": "1.0.0",
+  "description": "This project is a Discord Bot to roll RPG Dices",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "devStart": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/PixeLarm12/rolling-dice-bot.git"
+  },
+  "keywords": [],
+  "author": "Lucas - Pixe_Larm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/PixeLarm12/rolling-dice-bot/issues"
+  },
+  "homepage": "https://gitlab.com/PixeLarm12/rolling-dice-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
